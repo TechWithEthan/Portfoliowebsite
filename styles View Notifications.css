@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.notification-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.notification {
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.notification:last-child {
+    border-bottom: none;
+}
+
+.notification p {
+    margin: 5px 0;
+}
+
+.notification.date {
+    font-size: 0.8em;
+    color: #888;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

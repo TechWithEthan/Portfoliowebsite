@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; /* Reset margin */
+}
+
+.profile-content {
+    flex: 1;
+    display: flex; /* Enable flex on profile-content */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

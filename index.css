@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: linen;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    transition: transform 0.5s ease;
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+
+  .navbar-brand:hover {
+    transform: scale(1.1);
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .hero-section {
+    background: url('Images/Tech With EthaN.JPG') no-repeat center center/cover;
+    color: yellow;
+    padding: 100px 0;
+    animation: backgroundFade 10s infinite alternate;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  @keyframes backgroundFade {
+    0% {
+      background-position: center;
+    }
+    100% {
+      background-position: top;
+    }
+  }
+
+  .hero-section .container {
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .about-section img {
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    animation: zoomIn 1s ease-in-out;
+  }
+
+  @keyframes zoomIn {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .about-section img:hover {
+    transform: scale(1.1);
+  }
+
+  .card {
+    border: none;
+    transition: transform 0.3s ease;
+    animation: slideIn 1s ease-in-out;
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .contact-section .form-control {
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    animation: fadeInFooter 2s ease-in-out;
+  }
+
+  @keyframes fadeInFooter {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .subscribe-button {
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .about-us-image {
+    transition: transform 0.5s ease-in-out;
+    animation: rotateIn 1s ease-in-out;
+  }
+
+  @keyframes rotateIn {
+    0% {
+      transform: rotate(-180deg);
+      opacity: 0;
+    }
+    100% {
+      transform: rotate(0);
+      opacity: 1;
+    }
+  }
+
+  .about-us-title {
+    transition: transform 0.5s ease-in-out;
+    animation: slideInFromRight 1s ease-in-out;
+  }
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .about-us-text {
+    transition: transform 0.5s ease-in-out;
+    animation: slideInFromBottom 1s ease-in-out;
+  }
+
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  #i{
+    color: whitesmoke;
+  }
+  strong {
+    font-weight: bold;
+  }
+  footer{
+    margin-top: auto;
+  }
+  .whatsapp{
+    position: fixed;
+    top:550px;
+    background-color: olivedrab;
+    height: 25px;
+    width: 40px;
+  left: 95%;
+  border-radius: 20px;
+  }

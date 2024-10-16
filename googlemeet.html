@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create and Invite to Google Meet</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: palevioletred;
+            color: #333;
+            line-height: 1.6;
+            padding-top: 50px;
+        }
+    
+       .container {
+            max-width: 800px;
+            margin: 40px auto 100px; /* added margin-bottom: 100px; */
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+    
+       .lead {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    
+       .step {
+            margin-bottom: 40px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: whitesmoke;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: fadeInUp 0.5s ease-in-out;
+        }
+    
+       .step:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    
+       .step strong {
+            font-size: 20px;
+            color: #337ab7;
+        }
+    
+       .step-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+    
+       .step p,.step-content {
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+    
+       .btn-primary {
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: palevioletred;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+    
+       .btn-primary:hover {
+            background-color: #0056b3;
+        }
+    
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+        }    
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+    </head>
+<body>
+
+<div class="container">
+    <h1 class="text-center">How to Create a Google Meet and Invite People</h1>
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card step">
+                <div class="card-header">
+                    Step 1: Go to Google Meet
+                </div>
+                <div class="card-body">
+                    <p>Navigate to <a href="https://meet.google.com" target="_blank">Google Meet</a> using your web browser.</p>
+                </div>
+            </div>
+            <div class="card step">
+                <div class="card-header">
+                    Step 2: Create a New Meeting
+                </div>
+                <div class="card-body">
+                    <p>Click on "New Meeting" and choose one of the following options:</p>
+                    <ul>
+                        <li><strong>Start an instant meeting</strong> - Begin a meeting immediately.</li>
+                        <li><strong>Schedule in Google Calendar</strong> - Set up a future meeting in Google Calendar.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card step">
+                <div class="card-header">
+                <p>Step 3: Set Up Meeting Details</p>
+                </div>
+                <div class="card-body">
+                    <p>If you choose to schedule in Google Calendar, fill in the meeting details like date, time, and guests, then click "Save".</p>
+                </div>
+            </div>
+            <div class="card step">
+                <div class="card-header">
+                    Step 4: Invite Participants
+                </div>
+                <div class="card-body">
+                    <p>After starting or scheduling the meeting, invite people by:</p>
+                    <ul>
+                        <li><strong>Adding email addresses</strong> - Click "Add others" and enter email addresses.</li>
+                        <li><strong>Sharing the meeting link</strong> - Copy the meeting link and share it via email, chat, or other communication platforms.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

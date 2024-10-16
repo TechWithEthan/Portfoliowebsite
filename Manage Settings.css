@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.settings-container {
+    margin-top: 40px;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #28a745; /* Changed to green */
+    color: white;
+    font-weight: bold;
+}
+
+.btn-save, .btn-reset {
+    background-color: #17a2b8; /* Changed to teal */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-save:hover, .btn-reset:hover {
+    background-color: #138496; /* Darker teal on hover */
+}
+
+.btn-cancel {
+    background-color: #dc3545; /* Changed to red */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cancel:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.form-label i {
+    margin-right: 8px;
+    color: #28a745; /* Updated to match card header */
+}

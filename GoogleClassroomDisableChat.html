@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Disable Chat Messages in Google Classroom</title>
+    <link rel="icon" href="Images/Tech With EthaN.JPG" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family:initial,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: paleturquoise;
+        }
+
+        .header {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(90deg, #007bff, #00c6ff);
+            color: white;
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .section {
+            padding: 2rem;
+            margin: 1rem 0;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transform: translateX(-100%);
+            animation: slideIn 1s forwards;
+        }
+
+        @keyframes slideIn {
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        .icon {
+            font-size: 2rem;
+            margin-right: 0.5rem;
+        }
+
+        .content-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-icons a {
+            color: #007bff;
+            transition: transform 0.3s;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+        footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      clear: both;
+    }
+
+    footer p {
+      margin-bottom: 0;
+    }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="header">
+            <h1>How to Disable Chat Messages in Google Classroom</h1>
+            <p class="lead">
+                Google Classroom is a powerful tool for managing class activities and interactions. However, there might be times when you need to limit or disable chat messages to maintain focus or prevent distractions. Follow these steps to disable chat messages in Google Classroom:
+            </p>
+        </div>
+
+        <div class="steps">
+            <div class="section mb-3">
+                <h5>Step 1: Access Google Classroom</h5>
+                <p>Open your web browser and navigate to Google Classroom. Log in with your Google account credentials (make sure it's your teacher or admin account).</p>
+            </div>
+            <div class="section mb-3">
+                <h5>Step 2: Select the Class</h5>
+                <p>From the Google Classroom dashboard, select the class where you want to disable chat messages. Click on the class name to enter the class page.</p>
+            </div>
+            <div class="section mb-3">
+                <h5>Step 3: Open the Class Settings</h5>
+                <p>Once inside the class page, click on the "Classwork" tab at the top. On the Classwork page, click on the "Settings" gear icon located in the upper right corner. This will open the Class Settings menu.</p>
+            </div>
+            <div class="section mb-3">
+                <h5>Step 4: Modify the Stream Settings</h5>
+                <p>In the Class Settings menu, scroll down to the "General" section. Under "Classwork on the stream," you will see options for how posts and comments are handled in the class stream.</p>
+            </div>
+            <div class="section mb-3">
+                <h5>Step 5: Adjust Student Permissions</h5>
+                <p>In the "Stream" section, you have three options for student permissions:</p>
+                <ul>
+                    <li>Students can post and comment: Students can create posts and comment on any post.</li>
+                    <li>Students can only comment: Students can comment on teacher posts but cannot create their own posts.</li>
+                    <li>Only teachers can post or comment: Students cannot post or comment. Only teachers can interact in the stream.</li>
+                </ul>
+                <p>Select <strong>Only teachers can post or comment</strong> to disable all student chat and comments in the stream.</p>
+            </div>
+            <div class="section mb-3">
+                <h5>Step 6: Save the Changes</h5>
+                <p>After adjusting the permissions, scroll to the bottom of the Class Settings menu. Click the "Save" button to apply the changes.</p>
+            </div>
+            <div class="section mb-3">
+                <h5>Step 7: Communicate the Change to Students</h5>
+                <p>It's important to inform your students about the change in communication rules. You can post an announcement in the Stream or Classwork section explaining why chat messages have been disabled and how they should communicate with you or their peers if necessary.</p>
+            </div>
+            <div class="section mb-3">
+                <h5>Step 8: Monitor and Adjust as Needed</h5>
+                <p>Regularly monitor the class stream and settings to ensure that the changes are effective. If you find that the need for chat changes, you can always revisit the settings and adjust permissions as necessary.</p>
+            </div>
+            <div class="section mb-3">
+                <h5>The final Step </h5>
+                <p>By following these steps, you can effectively disable chat messages in Google Classroom, helping to maintain a focused and productive learning environment.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Tech With Ethan. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    background-color: #f4f4f4; /* Light grey background for the body */
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif; /* Font family */
+}
+
+header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around header */
+    text-align: center; /* Centered text */
+    margin-bottom: 20px; /* Margin below header */
+}
+
+h2 {
+    font-size: 1.5rem; /* Set a standard font size for all video titles */
+    margin-bottom: 15px; /* Margin below titles */
+}
+
+.card {
+    border: none; /* Remove card border */
+    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s; /* Smooth scaling on hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* No border for buttons */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.footer {
+    background-color: #007bff; /* Footer background color */
+    color: white; /* Footer text color */
+    position: relative; /* Positioning for footer */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width */
+    padding: 20px; /* Padding for footer */
+}
+
+.social-icons a {
+    font-size: 1.5rem; /* Increase size of social media icons */
+    color: white; /* White color for icons */
+}
+
+
+
+#i {
+    font-size: 2rem; /* Increase icon size */
+    color: white; /* Icon color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+    h2 {
+        font-size: 1.25rem; /* Smaller font size for mobile */
+    }
+    .card {
+        margin: 10px; /* Margin around cards on mobile */
+    }
+    .footer {
+        padding: 15px; /* Smaller footer padding */
+    }
+}

@@ -1,0 +1,132 @@
+/* Moving background animation for the body */
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+body {
+    background-color: #f8f9fa; 
+    animation: moveBackground 15s linear infinite;
+    background-size: 200% 200%;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #007bff; /* Blue header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.header h1 {
+    margin: 0;
+    animation: slideIn 2s ease-in-out;
+}
+
+/* Sliding animation for header text */
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Services Container */
+.services-container {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Service Card */
+.service-group {
+    margin-bottom: 50px;
+}
+
+.service-card {
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon Animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.service-icon {
+    font-size: 40px;
+    color: #007bff;
+    animation: bounce 1.5s infinite;
+}
+
+/* Service Title */
+.service-title {
+    font-weight: bold;
+    margin-top: 15px;
+    animation: fadeIn 2s ease-in;
+}
+
+/* Fading in text animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.service-description {
+    color: #6c757d;
+    animation: fadeIn 3s ease-in;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Rotating Icon in Footer */
+.footer i {
+    font-size: 24px;
+    color: white;
+    margin-right: 10px;
+    animation: rotateIcon 3s infinite linear;
+}
+
+@keyframes rotateIcon {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

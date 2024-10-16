@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light background for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+.id-card {
+    background-color: #fff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Fixed width for the card */
+    overflow: hidden; /* Clip overflowing content */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.id-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.id-header {
+    background-color: #007bff; /* Blue header */
+    color: white; /* White text color */
+    padding: 15px;
+    text-align: center; /* Center text */
+}
+
+.id-content {
+    padding: 20px; /* Padding for the content area */
+    text-align: center; /* Center text */
+}
+
+.profile-photo {
+    width: 100px; /* Fixed width for the photo */
+    height: 100px; /* Fixed height for the photo */
+    border-radius: 50%; /* Circular photo */
+    border: 3px solid #007bff; /* Blue border around the photo */
+    margin-bottom: 15px; /* Spacing below the photo */
+}
+
+h3 {
+    margin: 10px 0; /* Spacing above and below the name */
+}
+
+p {
+    margin: 5px 0; /* Spacing for paragraphs */
+    color: #555; /* Dark gray for text */
+}

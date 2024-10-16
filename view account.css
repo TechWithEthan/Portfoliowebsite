@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .account-container {
+    margin-top: 50px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .account-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  .account-details {
+    margin-bottom: 20px;
+  }
+  .account-details h6 {
+    font-weight: bold;
+    color: #495057;
+  }

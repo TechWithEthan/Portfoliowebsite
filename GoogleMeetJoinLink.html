@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Join the Google Meet using a link</title>
+    <link rel="icon" href="Images/Tech With EthaN.JPG" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: aquamarine;
+            animation: fadeIn 2s;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .instructions {
+            background-color: powderblue;
+            padding: 20px;
+            margin: 20px auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            max-width: 600px;
+            animation: slideIn 1s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+
+        li {
+            padding: 10px;
+            cursor: pointer;
+            list-style: none;
+            margin-bottom: 10px;
+            background: white;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        li:hover {
+            background-color: lightgray;
+            transform: scale(1.02);
+        }
+
+        h1 {
+            text-align: center;
+            color: whitesmoke;
+            animation: zoomIn 1.5s;
+        }
+
+        @keyframes zoomIn {
+            from { transform: scale(0.5); }
+            to { transform: scale(1); }
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: red;
+        }
+        footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      clear: both;
+    }
+
+    footer p {
+      margin-bottom: 0;
+      position: relative;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>How to Join the Google Meet using a link</h1>
+    </header>
+    <main class="container mt-5">
+        <section class="instructions">
+            <h2 class="text-center">Here are a few steps to join a Google Meet using a meeting link</h2>
+            <ol>
+                <li>Join a video meeting with a meeting link.</li>
+                <li>Open the chat message or email with the meeting link and click the meeting link.</li>
+                <li>Click Ask to join.</li>
+                <li>When someone in the meeting gives you access, you'll join it.</li>
+                <li>Wait for the meeting organizer to let you in.</li>
+                <li>Once you're in, you can start participating in the meeting.</li>
+                <li class="text-center">For more information about Google Meet, you can visit the <a href="https://meet.google.com/">Google Meet website</a>.</li>
+            </ol>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const listItems = document.querySelectorAll("li");
+            listItems.forEach(item => {
+                item.addEventListener("click", function() {
+                    this.classList.toggle("active");
+                });
+            });
+        });
+    </script>
+    <footer>
+        <p>&copy; 2024 Tech With Ethan. All Rights Reserved.</p>
+    </p>
+    </footer>
+</body>
+</html>
